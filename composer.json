@@ -1,0 +1,32 @@
+{
+    "name": "dvsa/mot-cpms-payment-test",
+    "description": "Common test library shared by CPMS project",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^7.3 || ^8.0",
+        "ext-json": "*",
+        "dvsa/mot-cpms-common": "^1.0",
+        "doctrine/doctrine-orm-module": "^4.0",
+        "laminas/laminas-mvc": "^3.2",
+        "laminas/laminas-dependency-plugin": "^2.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "laminas/laminas-test": "^4.0.0",
+        "doctrine/data-fixtures": "^1.5",
+        "captainhook/captainhook": "^5.16",
+        "captainhook/plugin-composer": "^5.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "PaymentTest\\": "lib/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "laminas/laminas-dependency-plugin": true,
+            "captainhook/plugin-composer": true
+        }
+    }
+}

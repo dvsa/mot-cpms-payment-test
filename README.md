@@ -1,2 +1,2 @@
 # mot-cpms-payment-test
-abstraction of testing tools for CPMS
+Abstraction of testing tools for CPMS
