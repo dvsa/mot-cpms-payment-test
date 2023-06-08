@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="mot-cpms-payment-test" xsi:noNamespaceSchemaLocation="./vendor-bin/php-codesniffer/squizlabs/php_codesniffer/phpcs.xsd">
+
+    <file>./lib</file>
+
+    <exclude-pattern>*/vendor/*</exclude-pattern>
+
+    <rule ref="./vendor-bin/php-codesniffer/vendor/dvsa/coding-standards/src/Profiles/DVSA/CS/ruleset.xml" />
+</ruleset>
