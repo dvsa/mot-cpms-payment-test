@@ -4,7 +4,7 @@
     "type": "library",
     "license": "MIT",
     "require": {
-        "php": "^7.3 || ^8.0",
+        "php": "^7.4 || ^8.0",
         "ext-json": "*",
         "dvsa/mot-cpms-common": "^1.0",
         "doctrine/doctrine-orm-module": "^4.0",
