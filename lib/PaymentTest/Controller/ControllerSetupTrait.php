@@ -30,11 +30,12 @@ trait ControllerSetupTrait
     protected $routeMatch;
     /** @var  HttpRouter */
     protected $router;
+    /** @var ServiceManager */
+    protected $serviceManager;
 
     /**
      * @param ServiceManager     $serviceManager
      * @param AbstractController $controller
-     * @param                    $controller
      * @param array              $plugins
      */
     public function setupController(
