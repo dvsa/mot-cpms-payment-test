@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "59f87f1bf74a7544e1e899934516cb77",
+    "content-hash": "2806cf43264e5a6d91192a6192e60dca",
     "packages": [
         {
             "name": "brick/varexporter",
@@ -1407,34 +1407,34 @@
         },
         {
             "name": "dvsa/mot-cpms-common",
-            "version": "v1.0.0",
+            "version": "v3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dvsa/mot-cpms-common.git",
-                "reference": "08652910e204adeff0be4ff85f50af88cab83eba"
+                "reference": "2fa18e1878bde0d5d1b21d06d2bf21da371143c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dvsa/mot-cpms-common/zipball/08652910e204adeff0be4ff85f50af88cab83eba",
-                "reference": "08652910e204adeff0be4ff85f50af88cab83eba",
+                "url": "https://api.github.com/repos/dvsa/mot-cpms-common/zipball/2fa18e1878bde0d5d1b21d06d2bf21da371143c6",
+                "reference": "2fa18e1878bde0d5d1b21d06d2bf21da371143c6",
                 "shasum": ""
             },
             "require": {
                 "laminas-api-tools/api-tools-versioning": "^1.4",
                 "laminas/laminas-authentication": "^2.8",
-                "laminas/laminas-dependency-plugin": "^2.1",
+                "laminas/laminas-dependency-plugin": "^2.6.0",
                 "laminas/laminas-inputfilter": "^2.12",
                 "laminas/laminas-json": "^3.3",
                 "laminas/laminas-log": "^2.13",
                 "laminas/laminas-mvc": "^3.3.0",
                 "laminas/laminas-router": "^3.4",
                 "laminas/laminas-servicemanager": "^3.7",
-                "php": "^7.3 || ^8.0"
+                "php": "^8.2"
             },
             "require-dev": {
                 "captainhook/captainhook": "^5.16",
                 "captainhook/plugin-composer": "^5.3",
-                "laminas/laminas-component-installer": "^3.2",
+                "laminas/laminas-component-installer": "^3.4.0",
                 "laminas/laminas-test": "^4.0.0",
                 "phpunit/phpunit": "^9.5"
             },
@@ -1456,9 +1456,9 @@
             "description": "Contains common code shared by CPMS projects",
             "support": {
                 "issues": "https://github.com/dvsa/mot-cpms-common/issues",
-                "source": "https://github.com/dvsa/mot-cpms-common/tree/v1.0.0"
+                "source": "https://github.com/dvsa/mot-cpms-common/tree/v3.0.0"
             },
-            "time": "2023-06-02T15:07:20+00:00"
+            "time": "2024-07-26T13:31:53+00:00"
         },
         {
             "name": "laminas-api-tools/api-tools-versioning",
@@ -1778,28 +1778,28 @@
         },
         {
             "name": "laminas/laminas-dependency-plugin",
-            "version": "2.2.0",
+            "version": "2.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-dependency-plugin.git",
-                "reference": "73cfb63ddca9d6bfedad5e0a038f6d55063975a3"
+                "reference": "d98c34fc81f65564ef97e045a381ac3419958615"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-dependency-plugin/zipball/73cfb63ddca9d6bfedad5e0a038f6d55063975a3",
-                "reference": "73cfb63ddca9d6bfedad5e0a038f6d55063975a3",
+                "url": "https://api.github.com/repos/laminas/laminas-dependency-plugin/zipball/d98c34fc81f65564ef97e045a381ac3419958615",
+                "reference": "d98c34fc81f65564ef97e045a381ac3419958615",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^1.1 || ^2.0",
-                "php": "^7.3 || ~8.0.0 || ~8.1.0"
+                "composer-plugin-api": ">=1.1.0 <2.3.0",
+                "php": "~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0"
             },
             "require-dev": {
-                "composer/composer": "^1.9 || ^2.0",
-                "laminas/laminas-coding-standard": "^2.2.1",
-                "mikey179/vfsstream": "^1.6.10@alpha",
+                "composer/composer": ">=1.9.0 <2.3.0",
+                "laminas/laminas-coding-standard": "~2.5.0",
+                "mikey179/vfsstream": "^1.6.11",
                 "phpunit/phpunit": "^9.5.5",
-                "psalm/plugin-phpunit": "^0.15.1",
+                "psalm/plugin-phpunit": "^0.18.0",
                 "roave/security-advisories": "dev-master",
                 "vimeo/psalm": "^4.5"
             },
@@ -1819,7 +1819,7 @@
             "description": "Replace zendframework and zfcampus packages with their Laminas Project equivalents.",
             "support": {
                 "issues": "https://github.com/laminas/laminas-dependency-plugin/issues",
-                "source": "https://github.com/laminas/laminas-dependency-plugin/tree/2.2.0"
+                "source": "https://github.com/laminas/laminas-dependency-plugin/tree/2.6.0"
             },
             "funding": [
                 {
@@ -1827,7 +1827,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2021-09-08T17:51:35+00:00"
+            "time": "2023-12-14T20:02:33+00:00"
         },
         {
             "name": "laminas/laminas-escaper",
@@ -7016,9 +7016,9 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.4 || ^8.0",
+        "php": "^8.2",
         "ext-json": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.2.0"
 }
