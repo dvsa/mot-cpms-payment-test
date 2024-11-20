@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2806cf43264e5a6d91192a6192e60dca",
+    "content-hash": "2a9412b4b9ad126049e786319d0a235c",
     "packages": [
         {
             "name": "brick/varexporter",
@@ -1407,16 +1407,16 @@
         },
         {
             "name": "dvsa/mot-cpms-common",
-            "version": "v3.0.0",
+            "version": "dev-feature-bl-15043-linting-and-static-analysis",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dvsa/mot-cpms-common.git",
-                "reference": "2fa18e1878bde0d5d1b21d06d2bf21da371143c6"
+                "reference": "f7d5d754553c7a756f9a1d61d507b0a7e1e03dfb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dvsa/mot-cpms-common/zipball/2fa18e1878bde0d5d1b21d06d2bf21da371143c6",
-                "reference": "2fa18e1878bde0d5d1b21d06d2bf21da371143c6",
+                "url": "https://api.github.com/repos/dvsa/mot-cpms-common/zipball/f7d5d754553c7a756f9a1d61d507b0a7e1e03dfb",
+                "reference": "f7d5d754553c7a756f9a1d61d507b0a7e1e03dfb",
                 "shasum": ""
             },
             "require": {
@@ -1434,9 +1434,12 @@
             "require-dev": {
                 "captainhook/captainhook": "^5.16",
                 "captainhook/plugin-composer": "^5.3",
+                "dvsa/coding-standards": "^2.0",
                 "laminas/laminas-component-installer": "^3.4.0",
                 "laminas/laminas-test": "^4.0.0",
-                "phpunit/phpunit": "^9.5"
+                "phpstan/phpstan": "^1.12",
+                "phpunit/phpunit": "^9.5",
+                "squizlabs/php_codesniffer": "^3.10"
             },
             "type": "library",
             "autoload": {
@@ -1456,9 +1459,9 @@
             "description": "Contains common code shared by CPMS projects",
             "support": {
                 "issues": "https://github.com/dvsa/mot-cpms-common/issues",
-                "source": "https://github.com/dvsa/mot-cpms-common/tree/v3.0.0"
+                "source": "https://github.com/dvsa/mot-cpms-common/tree/feature-bl-15043-linting-and-static-analysis"
             },
-            "time": "2024-07-26T13:31:53+00:00"
+            "time": "2024-11-15T10:51:50+00:00"
         },
         {
             "name": "laminas-api-tools/api-tools-versioning",
@@ -7012,7 +7015,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "dvsa/mot-cpms-common": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
